@@ -13,18 +13,6 @@ Inclui operações básicas de cadastrar, listar, atualizar e excluir usuários 
 
     Docker Compose
 
-📂 Estrutura do projeto
-
-usuario-crud-jdbc/
-├─ docker-compose.yml
-├─ lib/                  # Driver JDBC do PostgreSQL
-├─ src/
-│  ├─ entities/Usuario.java
-│  ├─ factory/ConnectionFactory.java
-│  ├─ repository/UsuarioRepository.java
-│  ├─ controller/UsuarioController.java
-│  ├─ principal/App.java
-│  └─ scripts.sql
 
 
 📜 Funcionalidades
@@ -37,17 +25,4 @@ usuario-crud-jdbc/
 
     Excluir usuário pelo ID
 
-📸 Exemplo de execução (terminal)
-
-==== MENU USUÁRIO ====
-1 - Cadastrar
-2 - Listar
-3 - Atualizar
-4 - Deletar
-0 - Sair
-Escolha: 1
-Nome: João Silva
-Email: joao@email.com
-Senha: 1234
-✅ Usuário cadastrado!
 
